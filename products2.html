@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Clothes Store - Products</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    nav {
+      background-color: #f4f4f4;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin: 0 10px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+    }
+
+    .sidebar {
+      flex: 0 0 200px;
+    }
+
+    .product-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      max-width: calc(100% - 220px);
+    }
+
+    .product {
+      flex: 0 0 300px;
+      margin: 10px;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+
+    .product img {
+      max-width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .product h2 {
+      margin: 10px 0;
+    }
+
+    .product p {
+      margin: 0;
+    }
+
+    .product button {
+      display: block;
+      margin-top: 10px;
+      padding: 10px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Proyecto Introduccion Ingenieria</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="sidebar">
+      <h2>Categories</h2>
+      <ul>
+        <li><a href="#">Categoria 1</a></li>
+        <li><a href="#">Categoria 2</a></li>
+        <li><a href="#">Categoria 3</a></li>
+        <li><a href="#">Categoria 4</a></li>
+      </ul>
+    </div>
+
+    <div class="product-list">
+      <div class="product">
+        <img src="product1.jpg" alt="Product 1">
+        <h2>Product 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button onclick="window.open('https://articulo.mercadolibre.cl/MLC-491595620-polera-pique-manga-larga-premium-textura-suave-hombre-uv-_JM#is_advertising=true&position=1&search_layout=grid&type=pad&tracking_id=79b40d40-147f-4ec5-8547-220ccabb2f6a&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=MDU2MzgwZTktODg4ZC00MmY5LThkNTEtYmU2ZTkxZmZhMGQ1', '_blank')">Link</button>
+      </div>
+
+      <div class="product">
+        <img src="product2.jpg" alt="Product 2">
+        <h2>Product 2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button onclick="window.open('https://articulo.mercadolibre.cl/MLC-482022614-polera-algodon-manga-corta-hombre-para-estampar-_JM#position=5&search_layout=grid&type=item&tracking_id=79b40d40-147f-4ec5-8547-220ccabb2f6a', '_blank')">Link</button>
+      </div>
+
+      <div class="product">
+        <img src="product3.jpg" alt="Product 3">
+        <h2>Product 3</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button onclick="window.open('https://articulo.mercadolibre.cl/MLC-505624731-polera-cuello-redondo-100-algodon-premium-liquidacion-_JM#is_advertising=true&position=10&search_layout=grid&type=pad&tracking_id=79b40d40-147f-4ec5-8547-220ccabb2f6a&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=10&ad_click_id=ZGM3ODQxZmItOWRhZS00YThkLWJmNmItOTE5ZTg0NzJlMWMz', '_blank')">Link</button>
+      </div>
+
+      <div class="product">
+        <img src="product4.jpg" alt="Product 4">
+        <h2>Product 4</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button onclick="window.open('https://articulo.mercadolibre.cl/MLC-1000830608-polera-unisex-100-poliester-_JM#position=37&search_layout=grid&type=item&tracking_id=264acc4a-518d-467e-b233-f75f15601eba', '_blank')">Link</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2023 Online Clothes Store. All rights reserved.
+  </footer>
+</body>
+
+</html>
